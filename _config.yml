@@ -9,8 +9,8 @@ description: > # this means to ignore newlines until "email:"
    Weeks in CNR IMAA geoSDI Lab
 
 email: sviluppo@geosdi.org
-#blog logo
-logo: "/assets/images/df_logo.jpg"
+blog logo
+#logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
