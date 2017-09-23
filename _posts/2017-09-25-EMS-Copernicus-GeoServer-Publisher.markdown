@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Mediator Features"
-date:   2014-11-30 14:34:25
-categories: mediator feature
-tags: featured
+title:  "Copernicus EMS Open Data GeoServer Publisher"
+date:   2017-09-25 09:00
+categories: Copernicus Features
+tags: opendata,copernicus,ems
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
