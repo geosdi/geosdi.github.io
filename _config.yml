@@ -6,9 +6,9 @@ gems:
 # Site settings
 title: "geosdi dev blog"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Weeks in CNR IMAA geoSDI Lab
 
-email: a-mail@mail.mail
+email: sviluppo@geosdi.org
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
