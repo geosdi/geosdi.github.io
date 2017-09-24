@@ -40,7 +40,7 @@ La repo [**copernicus-ems-geosdi-publisher**](https://github.com/geosdi/copernic
 
 L'applicazione è concepita per essere usata da riga di comando e prende come parametro di input una lista di codici identificativi **EMSRXXXX**.
 
-> mvn springboot:run EMSR238,EMSR242
+> mvn springboot:run
 
 Il comando eseguirà l'applicazione SpringBoot e per ogni id passato in input verrà effettuato il seguente flusso di lavoro:
 
