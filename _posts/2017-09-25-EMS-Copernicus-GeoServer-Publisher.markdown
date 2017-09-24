@@ -27,14 +27,14 @@ Nel portale [EMS](http://emergency.copernicus.eu/) per ogni attivazione è possi
 
 [http://emergency.copernicus.eu/mapping/list-of-components/EMSR238](http://emergency.copernicus.eu/mapping/list-of-components/EMSR238)
 
-![Schermata 2017-09-24 alle 17.28.06.png]({{site.baseurl}}/_posts/Schermata 2017-09-24 alle 17.28.06.png)
+![Dettagli dell'evento EMS]/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/Schermata 2017-09-24 alle 17.28.06.png)
 
 
 **EMSR238** è l'id che viene generato dal sistema Copernicus su richiesta, come si vede nell'immagine precedente) della Protezione Civile Nazionale per l'evento che ha colpito Livorno e Rosignano (Toscana - ITALIA) lo scorso 9 settembre 2017.
 
 Come è possibile vedere accedendo all'url dell'evento, è possibile accedere ai dati relativi alle mappe di delineazione e classificazione.
 
-![Schermata 2017-09-24 alle 17.39.48.png]({{site.baseurl}}/_posts/Schermata 2017-09-24 alle 17.39.48.png)
+![Mappe disponibili (Vector Package)]/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher//_posts/Schermata 2017-09-24 alle 17.39.48.png)
 
 La repo **copernicus-ems-geosdi-publisher** contiene una semplice applicazione SpringBoot realizzata per automatizzare il processo di download dei dati da EMS e la publicazione su GeoServer dei file scaricati.
 
@@ -48,7 +48,7 @@ Il comando eseguirà l'applicazione SpringBoot e per ogni id passato in input es
 - Per tutti i file effettuerà il download (in una directory configurabile)
 - Per tutti i file scaricati pubblicherà su GeoServer gli shapefile contenuti nei file ZIP
 
-![GeoServer EMS Layers]({{site.baseurl}}/_posts/geoserver-ems-published-layers.png)
+![GeoServer EMS Layers]/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/_posts/geoserver-ems-published-layers.png)
 
 
 Per la configurazione dell'applicazione potete trovare la documentazione sulla repo **copernicus-ems-geosdi-publisher**.
