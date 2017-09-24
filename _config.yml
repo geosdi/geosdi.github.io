@@ -28,7 +28,7 @@ baseurl: ""
 twitter_handle: '@geosdi'
 
 #fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+disqus: geosdi-dev-blog
 
 google_analytics: UA-3919470-26
 
