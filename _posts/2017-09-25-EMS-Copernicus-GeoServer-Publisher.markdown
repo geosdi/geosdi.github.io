@@ -36,11 +36,11 @@ Come è possibile vedere accedendo all'[url](http://emergency.copernicus.eu/mapp
 
 ![Mappe disponibili (Vector Package)](/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/EMS-VectorPackage.png)
 
-La repo **copernicus-ems-geosdi-publisher** contiene una semplice applicazione SpringBoot realizzata per automatizzare il processo di download dei dati da EMS e la publicazione su GeoServer dei file scaricati.
+La repo [**copernicus-ems-geosdi-publisher**](https://github.com/geosdi/copernicus-ems-geosdi-publisher "https://github.com/geosdi/copernicus-ems-geosdi-publisher") contiene una semplice applicazione SpringBoot realizzata per automatizzare il processo di download dei dati da EMS e la publicazione su GeoServer dei file scaricati.
 
 L'applicazione è concepita per essere usata da riga di comando e prende come parametro di input una lista di codici identificativi **EMSRXXXX**.
 
-> java -jar copernicus-ems-geosdi-publisher.jar EMSR238,EMSR242
+> mvn springboot:run EMSR238,EMSR242
 
 Il comando eseguirà l'applicazione SpringBoot e per ogni id passato in input verrà effettuato il seguente flusso di lavoro:
 
@@ -51,6 +51,6 @@ Il comando eseguirà l'applicazione SpringBoot e per ogni id passato in input ve
 ![Dati EMS importati su GeoServer](/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/geoserver-ems-published-layers.png)
 
 
-Per la configurazione dell'applicazione potete trovare la documentazione sulla repo **copernicus-ems-geosdi-publisher**.
+Per la configurazione dell'applicazione potete trovare la documentazione sulla repo [**copernicus-ems-geosdi-publisher**](https://github.com/geosdi/copernicus-ems-geosdi-publisher).
 
 > Crediamo che l'integrazione di dati sia davvero la chiave per un rapid mapping in situazioni di emergenza, siamo convinti che questo piccolo contributo possa essere utile ai tecnici ma in generale a tutte quelle persone che vogliono fare analisi su situazioni di emergenza.
