@@ -17,7 +17,7 @@ All'interno del laboratorio geoSDI del CNR IMAA supportiamo progetti e programmi
 
 Le mappe prodotte dal sistema di Gestione delle Emergenze di Copernicus si suddividono in tre tipi principali:
 
-- Mappe di Riferimento (**Reference maps**) : contengono dati che consentono velocemente di avere una **conoscenza** aggiornata sul territorio; vengono prodotte utilizzando dati acquisiti disponibili il più possibile vicini all'evento.
+- Mappe di Riferimento (**Reference maps**) : contengono dati che consentono velocemente di avere una **conoscenza** aggiornata sul territorio; vengono prodotte utilizzando dati acquisiti disponibili il più vicino possibile prima dell'evento.
 
 - Mappe di delineazione (**Delineation maps**) : contengono dati utili a fornire una valutazione dell'estensione dell'evento (e della sua evoluzione se richiesto). Le mappe di delineazione derivano dalle immagini post-disastro satellitari. Esse variano a seconda del tipo di catastrofe e delineamento delle aree colpite dal disastro.
 
