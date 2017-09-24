@@ -42,13 +42,13 @@ L'applicazione è concepita per essere usata da riga di comando e prende come pa
 
 > java -jar copernicus-ems-geosdi-publisher.jar EMSR238,EMSR242
 
-Il comando eseguirà l'applicazione SpringBoot e per ogni id passato in input eseguirà il seguente flusso di lavoro:
+Il comando eseguirà l'applicazione SpringBoot e per ogni id passato in input verrà effettuato il seguente flusso di lavoro:
 
 - Cercherà nella pagina dell'evento tutti i link ("a[href]") e filtrerà solo i file di tipo ZIP
 - Per tutti i file effettuerà il download (in una directory configurabile)
 - Per tutti i file scaricati pubblicherà su GeoServer gli shapefile contenuti nei file ZIP
 
-![GeoServer EMS Layers](/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/geoserver-ems-published-layers.png)
+![Dati EMS importati su GeoServer](/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/geoserver-ems-published-layers.png)
 
 
 Per la configurazione dell'applicazione potete trovare la documentazione sulla repo **copernicus-ems-geosdi-publisher**.
