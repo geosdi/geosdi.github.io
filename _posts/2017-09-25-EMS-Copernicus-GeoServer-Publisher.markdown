@@ -18,9 +18,7 @@ All'interno del laboratorio geoSDI del CNR IMAA supportiamo progetti e programmi
 Le mappe prodotte dal sistema di Gestione delle Emergenze di Copernicus si suddividono in tre tipi principali:
 
 - Mappe di Riferimento (**Reference maps**) : contengono dati che consentono velocemente di avere una **conoscenza** aggiornata sul territorio; vengono prodotte utilizzando dati precedentemente acquisiti utilizzando quelli più recenti.
-
 - Mappe di delineazione (**Delineation maps**) : contengono dati utili a fornire una valutazione dell'estensione dell'evento (e della sua evoluzione se richiesto). Le mappe di delineazione derivano dalle immagini post-disastro satellitari. Esse variano a seconda del tipo di catastrofe e delineano le aree colpite dal disastro.
-
 - Mappe di Classificazione (**Grading maps**) : contengono dati utili a fornire una valutazione del **grado di danno**. Le mappe di classificazione sono derivate dalle immagini satellitari post-evento, comprendono i livelli di dimensione, grandezza o danno specifici per ciascun tipo di catastrofe. Possono anche fornire informazioni pertinenti e aggiornate specifiche per la popolazione e le risorse interessate, ad esempio insediamenti, reti di trasporto, industria e utilities.
 
 Nel portale [EMS](http://emergency.copernicus.eu/) per ogni attivazione è possibile accedere ad una url del tipo :
