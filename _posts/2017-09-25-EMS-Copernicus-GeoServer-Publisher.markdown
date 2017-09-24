@@ -42,6 +42,21 @@ L'applicazione è concepita per essere usata da riga di comando e prende come pa
 
 > java -jar copernicus-ems-geosdi-publisher.jar EMSR238,EMSR242
 
+Il comando eseguirà l'applicazione SpringBoot e per ogni id passato in input eseguirà il seguente flusso di lavoro:
+
+- Cercherà nella pagina dell'evento tutti i link ("a[href]") e filtrerà solo i file di tipo ZIP
+- Per tutti i file effettuerà il download (in una directory configurabile)
+- Per tutti i file scaricati pubblicherà su GeoServer gli shapefile contenuti nei file ZIP
+
+![GeoServer EMS Layers]({{site.baseurl}}/_posts/geoserver-ems-published-layers.png)
+
+
+Per la configurazione dell'applicazione potete trovare la documentazione sulla repo **copernicus-ems-geosdi-publisher**.
+
+> Crediamo che l'integrazione di dati sia davvero la chiave per un rapid mapping in situazioni di emergenza, siamo convinti che questo piccolo contributo possa essere utile ai tecnici ma in generale a tutte quelle persone che vogliono fare analisi su situazioni di emergenza.
+
+
+
 
 
 
