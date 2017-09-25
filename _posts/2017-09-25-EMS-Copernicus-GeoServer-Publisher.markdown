@@ -30,7 +30,7 @@ Nel portale [EMS](http://emergency.copernicus.eu/) per ogni attivazione è possi
 
 **EMSR238** è l'identificativo che viene generato dal sistema Copernicus su richiesta, come si vede nell'immagine precedente, della Protezione Civile Nazionale per l'evento che ha colpito Livorno e Rosignano (Toscana - ITALIA) lo scorso 9 settembre 2017.
 
-Come è possibile vedere accedendo all'[url](http://emergency.copernicus.eu/mapping/list-of-components/EMSR238) dell'evento è possibile scaricare i Vector Package in formato ZIP. Il file ZIP contengono gli shape file dei dati delle mappe di riferiment, delimitazione e classificazione.
+Come è possibile vedere accedendo all'[url](http://emergency.copernicus.eu/mapping/list-of-components/EMSR238) dell'evento è possibile scaricare i Vector Package in formato ZIP. Il file ZIP contengono gli shape file dei dati delle mappe di riferimento, delimitazione e classificazione.
 
 ![Mappe disponibili (Vector Package)](/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/EMS-VectorPackage.png)
 
