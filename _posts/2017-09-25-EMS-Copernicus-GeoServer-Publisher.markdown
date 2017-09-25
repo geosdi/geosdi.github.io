@@ -11,7 +11,7 @@ image2: >-
 published: true
 ---
 
->Il servizio di gestione delle emergenze di Copernicus (EMS) espone un portale opendata dove è possibile accedere liberamente ai dati relativi a disastri naturali ed piu in generale a tutte le crisi umanitarie. Copernicus viene attivato da utenti autorizzati in base al rischio e l'impatto sulla popolazione mondiale.
+>Il servizio di gestione delle emergenze di Copernicus (EMS) espone un portale opendata dove è possibile accedere liberamente ai dati relativi a disastri naturali e più in generale a tutte le crisi umanitarie. Copernicus viene attivato da utenti autorizzati in base al rischio e l'impatto sulla popolazione mondiale.
 
 All'interno del laboratorio geoSDI del CNR IMAA supportiamo progetti e programmi Copernicus, in questo articolo vi presentiamo una semplice soluzione software (open) in grado di automatizzare il processo di download e pubblicazione su gateway GeoServer delle attivazioni EMS Copernicus.
 
@@ -30,7 +30,7 @@ Nel portale [EMS](http://emergency.copernicus.eu/) per ogni attivazione è possi
 
 **EMSR238** è l'identificativo che viene generato dal sistema Copernicus su richiesta, come si vede nell'immagine precedente, della Protezione Civile Nazionale per l'evento che ha colpito Livorno e Rosignano (Toscana - ITALIA) lo scorso 9 settembre 2017.
 
-Come è possibile vedere accedendo all'[url](http://emergency.copernicus.eu/mapping/list-of-components/EMSR238) dell'evento è possibile accedere al download dei Vector Package in formato ZIP. Il file ZIP contengono gli shape file dei dati delle mappe di delimitazione e classificazione.
+Come è possibile vedere accedendo all'[url](http://emergency.copernicus.eu/mapping/list-of-components/EMSR238) dell'evento è possibile scaricare i Vector Package in formato ZIP. Il file ZIP contengono gli shape file dei dati delle mappe di riferiment, delimitazione e classificazione.
 
 ![Mappe disponibili (Vector Package)](/assets/article_images/2017-09-25-EMS-Copernicus-GeoServer-Publisher/EMS-VectorPackage.png)
 
